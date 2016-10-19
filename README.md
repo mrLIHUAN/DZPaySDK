@@ -22,16 +22,16 @@ iOS SDK 要求 iOS 8.0 及l以上版本
 ### 额外配置
 1. iOS 9 以上版本如果需要使用支付宝和微信渠道，需要在 `Info.plist` 添加以下代码
 
-     ```
-     <key>LSApplicationQueriesSchemes</key>
-     <array>
+    ```
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
         <string>weixin</string>
         <string>wechat</string>
         <string>alipay</string>
         <string>alipays</string>
         <string>mqq</string>
-     </array>
-     ```
+    </array>
+    ```
 2. iOS 9 限制了 http 协议的访问，如果 App 需要访问 `http://`，需要在 `Info.plist` 添加如下代码
 
     ```

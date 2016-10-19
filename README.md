@@ -22,7 +22,6 @@ iOS SDK 要求 iOS 8.0 及l以上版本
 ###额外配置
 
 1. iOS 9 以上版本如果需要使用支付宝和微信渠道，需要在 `Info.plist` 添加以下代码：
-
     ```
     <key>LSApplicationQueriesSchemes</key>
     <array>

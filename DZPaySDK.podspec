@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "DZPaySDK" 
-  s.version          = "1.0.1" 
+  s.version          = "1.0.2" 
   s.summary          = "支付中心"  
   s.homepage         = "https://github.com/mrLIHUAN/DZPaySDK"   
   s.license          = 'MIT'  
